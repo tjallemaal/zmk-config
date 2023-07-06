@@ -21,7 +21,7 @@
 #define HRC_RPAR   &hmr_rpar_gt LA(LCTRL) 0
 
 /* Horizontal combos - left hand */
-ZMK_COMBO(esc,   &kp ESC,       LB3 LB2     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(space,   &kp SPACE,       LB3 LB2     DEF NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(ret,   &kp RETURN,    LB2 LB1,     DEF NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(mouse, &smart_mouse,  LB3 LB1,     DEF NAV NUM, COMBO_TERM_SLOW)
 
@@ -33,8 +33,8 @@ ZMK_COMBO(copy,  &kp LC(INS),   LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(paste, &kp LS(INS),   LT2 LT1,     DEF NAV NUM, COMBO_TERM_FAST)
 
 /* Horizontal combos - right hand */
-ZMK_COMBO(bspc,  &kp BSPC,      RB1 RB2,     DEF NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(del,   &kp DEL,       RB2 RB3,     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(del,    &kp DEL,      RB1 RB2,     DEF NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(bspc,   &kp BSPC,     RB2 RB3,     DEF NAV NUM, COMBO_TERM_FAST)
 
 ZMK_COMBO(lpar,  HRC_LPAR,      RM1 RM2,     DEF     NUM, COMBO_TERM_FAST)
 ZMK_COMBO(rpar,  HRC_RPAR,      RM2 RM3,     DEF     NUM, COMBO_TERM_FAST)
