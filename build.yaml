@@ -12,22 +12,9 @@
 #     shield: reviung41
 #
 #---
-#include:
-#  - board: adv360pro_left
-#  - board: adv360pro_right
-#revision: adv360-led
+include:
+  - board: adv360pro_left
+  - board: adv360pro_right
 
 
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
-  projects:
-    - name: zmk
-      remote: urob
-      revision: adv360-led
-      import: app/west.yml
-  self:
-    path: config
+
