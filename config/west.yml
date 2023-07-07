@@ -6,9 +6,8 @@ manifest:
       url-base: https://github.com/urob
   projects:
     - name: zmk
-      revision: adv360-led
       remote: urob
-      revision: main
+      revision: adv360-led
       import: app/west.yml
   self:
     path: config
