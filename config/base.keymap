@@ -7,7 +7,6 @@
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-#include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/greek.dtsi"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
 
@@ -23,6 +22,7 @@
 #include "combos.dtsi"  // requires layer aliases
 #include "mouse.dtsi"
 #include "extra_keys.h"
+#include "../zmk-nodefree-config/helper.h"
 
 #define XXX &none
 #define ___ &trans
