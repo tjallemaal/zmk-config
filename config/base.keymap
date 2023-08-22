@@ -32,7 +32,7 @@
 ZMK_UNICODE_PAIR( de_ae,   N0, N0,  E, N4,   N0, N0,  C, N4 )
 ZMK_UNICODE_PAIR( de_oe,   N0, N0,  F, N6,   N0, N0,  D, N6 )
 ZMK_UNICODE_PAIR( de_ue,   N0, N0,  F,  C,   N0, N0,  D,  C )
-ZMK_UNICODE_PAIR( de_ss,   N0, N0,  D,  F,   N1   E, N9,  E )
+ZMK_UNICODE_PAIR( de_ss,   N0, N0,  D,  F,   N1,  E, N9,  E )
 ZMK_UNICODE_PAIR( tr_g,    N0, N1,  N1, F,   N0, N1, N1,  E )
 ZMK_UNICODE_PAIR( tr_s,    N0, N1,  N5, F,   N0, N1, N5,  E )
 ZMK_UNICODE_PAIR( tr_i,    N0, N1,  N3, N1,  N0, N1, N3, N0 ) 
